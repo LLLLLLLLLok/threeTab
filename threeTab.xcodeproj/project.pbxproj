@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EF45A0F2ACFD70E00D60A7B /* threeTabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF45A0E2ACFD70E00D60A7B /* threeTabApp.swift */; };
+		5EF45A112ACFD70E00D60A7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF45A102ACFD70E00D60A7B /* ContentView.swift */; };
+		5EF45A132ACFD70F00D60A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF45A122ACFD70F00D60A7B /* Assets.xcassets */; };
+		5EF45A172ACFD70F00D60A7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF45A162ACFD70F00D60A7B /* Preview Assets.xcassets */; };
+		5EF45A212ACFD70F00D60A7B /* threeTabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF45A202ACFD70F00D60A7B /* threeTabTests.swift */; };
+		5EF45A2B2ACFD70F00D60A7B /* threeTabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF45A2A2ACFD70F00D60A7B /* threeTabUITests.swift */; };
+		5EF45A2D2ACFD70F00D60A7B /* threeTabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF45A2C2ACFD70F00D60A7B /* threeTabUITestsLaunchTests.swift */; };
+		5EF45A3A2ACFD7A700D60A7B /* ItemTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF45A392ACFD7A700D60A7B /* ItemTab.swift */; };
+		5EF45A3C2ACFD7B600D60A7B /* SearchTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF45A3B2ACFD7B600D60A7B /* SearchTab.swift */; };
+		5EF45A3E2ACFD7C900D60A7B /* LoginTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF45A3D2ACFD7C900D60A7B /* LoginTab.swift */; };
+		5EF45A4A2ACFE61600D60A7B /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF45A492ACFE61600D60A7B /* NewsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EF45A1D2ACFD70F00D60A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EF45A032ACFD70E00D60A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EF45A0A2ACFD70E00D60A7B;
+			remoteInfo = threeTab;
+		};
+		5EF45A272ACFD70F00D60A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EF45A032ACFD70E00D60A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EF45A0A2ACFD70E00D60A7B;
+			remoteInfo = threeTab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EF45A0B2ACFD70E00D60A7B /* threeTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = threeTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF45A0E2ACFD70E00D60A7B /* threeTabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeTabApp.swift; sourceTree = "<group>"; };
+		5EF45A102ACFD70E00D60A7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EF45A122ACFD70F00D60A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EF45A142ACFD70F00D60A7B /* threeTab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = threeTab.entitlements; sourceTree = "<group>"; };
+		5EF45A162ACFD70F00D60A7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EF45A1C2ACFD70F00D60A7B /* threeTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = threeTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF45A202ACFD70F00D60A7B /* threeTabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeTabTests.swift; sourceTree = "<group>"; };
+		5EF45A262ACFD70F00D60A7B /* threeTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = threeTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF45A2A2ACFD70F00D60A7B /* threeTabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeTabUITests.swift; sourceTree = "<group>"; };
+		5EF45A2C2ACFD70F00D60A7B /* threeTabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeTabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EF45A392ACFD7A700D60A7B /* ItemTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTab.swift; sourceTree = "<group>"; };
+		5EF45A3B2ACFD7B600D60A7B /* SearchTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTab.swift; sourceTree = "<group>"; };
+		5EF45A3D2ACFD7C900D60A7B /* LoginTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTab.swift; sourceTree = "<group>"; };
+		5EF45A492ACFE61600D60A7B /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EF45A082ACFD70E00D60A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF45A192ACFD70F00D60A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF45A232ACFD70F00D60A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EF45A022ACFD70E00D60A7B = {
+			isa = PBXGroup;
+			children = (
+				5EF45A0D2ACFD70E00D60A7B /* threeTab */,
+				5EF45A1F2ACFD70F00D60A7B /* threeTabTests */,
+				5EF45A292ACFD70F00D60A7B /* threeTabUITests */,
+				5EF45A0C2ACFD70E00D60A7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EF45A0C2ACFD70E00D60A7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EF45A0B2ACFD70E00D60A7B /* threeTab.app */,
+				5EF45A1C2ACFD70F00D60A7B /* threeTabTests.xctest */,
+				5EF45A262ACFD70F00D60A7B /* threeTabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EF45A0D2ACFD70E00D60A7B /* threeTab */ = {
+			isa = PBXGroup;
+			children = (
+				5EF45A0E2ACFD70E00D60A7B /* threeTabApp.swift */,
+				5EF45A102ACFD70E00D60A7B /* ContentView.swift */,
+				5EF45A392ACFD7A700D60A7B /* ItemTab.swift */,
+				5EF45A3B2ACFD7B600D60A7B /* SearchTab.swift */,
+				5EF45A3D2ACFD7C900D60A7B /* LoginTab.swift */,
+				5EF45A122ACFD70F00D60A7B /* Assets.xcassets */,
+				5EF45A142ACFD70F00D60A7B /* threeTab.entitlements */,
+				5EF45A152ACFD70F00D60A7B /* Preview Content */,
+				5EF45A492ACFE61600D60A7B /* NewsView.swift */,
+			);
+			path = threeTab;
+			sourceTree = "<group>";
+		};
+		5EF45A152ACFD70F00D60A7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EF45A162ACFD70F00D60A7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EF45A1F2ACFD70F00D60A7B /* threeTabTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EF45A202ACFD70F00D60A7B /* threeTabTests.swift */,
+			);
+			path = threeTabTests;
+			sourceTree = "<group>";
+		};
+		5EF45A292ACFD70F00D60A7B /* threeTabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EF45A2A2ACFD70F00D60A7B /* threeTabUITests.swift */,
+				5EF45A2C2ACFD70F00D60A7B /* threeTabUITestsLaunchTests.swift */,
+			);
+			path = threeTabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EF45A0A2ACFD70E00D60A7B /* threeTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF45A302ACFD70F00D60A7B /* Build configuration list for PBXNativeTarget "threeTab" */;
+			buildPhases = (
+				5EF45A072ACFD70E00D60A7B /* Sources */,
+				5EF45A082ACFD70E00D60A7B /* Frameworks */,
+				5EF45A092ACFD70E00D60A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = threeTab;
+			productName = threeTab;
+			productReference = 5EF45A0B2ACFD70E00D60A7B /* threeTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EF45A1B2ACFD70F00D60A7B /* threeTabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF45A332ACFD70F00D60A7B /* Build configuration list for PBXNativeTarget "threeTabTests" */;
+			buildPhases = (
+				5EF45A182ACFD70F00D60A7B /* Sources */,
+				5EF45A192ACFD70F00D60A7B /* Frameworks */,
+				5EF45A1A2ACFD70F00D60A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EF45A1E2ACFD70F00D60A7B /* PBXTargetDependency */,
+			);
+			name = threeTabTests;
+			productName = threeTabTests;
+			productReference = 5EF45A1C2ACFD70F00D60A7B /* threeTabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EF45A252ACFD70F00D60A7B /* threeTabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF45A362ACFD70F00D60A7B /* Build configuration list for PBXNativeTarget "threeTabUITests" */;
+			buildPhases = (
+				5EF45A222ACFD70F00D60A7B /* Sources */,
+				5EF45A232ACFD70F00D60A7B /* Frameworks */,
+				5EF45A242ACFD70F00D60A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EF45A282ACFD70F00D60A7B /* PBXTargetDependency */,
+			);
+			name = threeTabUITests;
+			productName = threeTabUITests;
+			productReference = 5EF45A262ACFD70F00D60A7B /* threeTabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EF45A032ACFD70E00D60A7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5EF45A0A2ACFD70E00D60A7B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					5EF45A1B2ACFD70F00D60A7B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5EF45A0A2ACFD70E00D60A7B;
+					};
+					5EF45A252ACFD70F00D60A7B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5EF45A0A2ACFD70E00D60A7B;
+					};
+				};
+			};
+			buildConfigurationList = 5EF45A062ACFD70E00D60A7B /* Build configuration list for PBXProject "threeTab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EF45A022ACFD70E00D60A7B;
+			productRefGroup = 5EF45A0C2ACFD70E00D60A7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EF45A0A2ACFD70E00D60A7B /* threeTab */,
+				5EF45A1B2ACFD70F00D60A7B /* threeTabTests */,
+				5EF45A252ACFD70F00D60A7B /* threeTabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EF45A092ACFD70E00D60A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF45A172ACFD70F00D60A7B /* Preview Assets.xcassets in Resources */,
+				5EF45A132ACFD70F00D60A7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF45A1A2ACFD70F00D60A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF45A242ACFD70F00D60A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EF45A072ACFD70E00D60A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF45A3E2ACFD7C900D60A7B /* LoginTab.swift in Sources */,
+				5EF45A3A2ACFD7A700D60A7B /* ItemTab.swift in Sources */,
+				5EF45A112ACFD70E00D60A7B /* ContentView.swift in Sources */,
+				5EF45A4A2ACFE61600D60A7B /* NewsView.swift in Sources */,
+				5EF45A0F2ACFD70E00D60A7B /* threeTabApp.swift in Sources */,
+				5EF45A3C2ACFD7B600D60A7B /* SearchTab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF45A182ACFD70F00D60A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF45A212ACFD70F00D60A7B /* threeTabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF45A222ACFD70F00D60A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF45A2D2ACFD70F00D60A7B /* threeTabUITestsLaunchTests.swift in Sources */,
+				5EF45A2B2ACFD70F00D60A7B /* threeTabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EF45A1E2ACFD70F00D60A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EF45A0A2ACFD70E00D60A7B /* threeTab */;
+			targetProxy = 5EF45A1D2ACFD70F00D60A7B /* PBXContainerItemProxy */;
+		};
+		5EF45A282ACFD70F00D60A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EF45A0A2ACFD70E00D60A7B /* threeTab */;
+			targetProxy = 5EF45A272ACFD70F00D60A7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EF45A2E2ACFD70F00D60A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EF45A2F2ACFD70F00D60A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5EF45A312ACFD70F00D60A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = threeTab/threeTab.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"threeTab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lok.threeTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EF45A322ACFD70F00D60A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = threeTab/threeTab.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"threeTab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lok.threeTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EF45A342ACFD70F00D60A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lok.threeTabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/threeTab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/threeTab";
+			};
+			name = Debug;
+		};
+		5EF45A352ACFD70F00D60A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lok.threeTabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/threeTab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/threeTab";
+			};
+			name = Release;
+		};
+		5EF45A372ACFD70F00D60A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lok.threeTabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = threeTab;
+			};
+			name = Debug;
+		};
+		5EF45A382ACFD70F00D60A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lok.threeTabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = threeTab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EF45A062ACFD70E00D60A7B /* Build configuration list for PBXProject "threeTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF45A2E2ACFD70F00D60A7B /* Debug */,
+				5EF45A2F2ACFD70F00D60A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF45A302ACFD70F00D60A7B /* Build configuration list for PBXNativeTarget "threeTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF45A312ACFD70F00D60A7B /* Debug */,
+				5EF45A322ACFD70F00D60A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF45A332ACFD70F00D60A7B /* Build configuration list for PBXNativeTarget "threeTabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF45A342ACFD70F00D60A7B /* Debug */,
+				5EF45A352ACFD70F00D60A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF45A362ACFD70F00D60A7B /* Build configuration list for PBXNativeTarget "threeTabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF45A372ACFD70F00D60A7B /* Debug */,
+				5EF45A382ACFD70F00D60A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EF45A032ACFD70E00D60A7B /* Project object */;
+}
